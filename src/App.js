@@ -1,26 +1,29 @@
 import React from 'react';
 // components
-import Banner from './components/Banner';
-import Header from './components/Header';
-import Nav from './components/Nav';
-import About from './components/About';
-import Services from './components/Services';
-import Work from './components/Work';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+// import Banner from './components/Banner';
+// import Header from './components/Header';
+// import Nav from './components/Nav';
+// import About from './components/About';
+// import Services from './components/Services';
+// import Work from './components/Work';
+// import Contact from './components/Contact';
+// import Footer from './components/Footer';
+import { router } from './components/routes/routes';
+import { RouterProvider } from 'react-router-dom';
 
 
 const App = () => {
   return (
     <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
-      <Header />
+      {/* <Header />
       <Banner />
       <Nav />
       <About />
       <Services />
       <Work />
       <Contact />
-      <Footer />
+      <Footer /> */}
+      <RouterProvider router={router}></RouterProvider>
 
       {/* <div className='h-[400px]'></div> */}
     </div>
