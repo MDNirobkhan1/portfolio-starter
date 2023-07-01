@@ -12,6 +12,7 @@ import { fadeIn } from '../variants'
 const Work = () => {
   return <div className='section' id='work'>
     <div className='container mx-auto'>
+      <h2 className='text-4xl text-center mb-10'>My Projects</h2>
       <div className='flex flex-col lg:flex-row gap-x-10'>
         <motion.div
           variants={fadeIn('left', 0.3)}
