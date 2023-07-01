@@ -12,19 +12,19 @@ import Contact from "../../Contact";
 
 
 const Main = () => {
-  return (
-    <div>
-        <Nav></Nav>
-        <Header></Header>
-        <Banner></Banner>
-        <About></About>
-        <Services/>
-        <Work/>
-        <Contact/>
-      <Outlet/>
-      <Footer/>
-    </div>
-  );
+    return (
+        <div>
+            <Nav></Nav>
+            <Header></Header>
+            <Banner></Banner>
+            <About></About>
+            <Services />
+            <Work />
+            <Contact />
+            <Outlet />
+            <Footer />
+        </div>
+    );
 };
 
 export default Main;

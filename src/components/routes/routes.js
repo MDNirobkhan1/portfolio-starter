@@ -1,8 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "./layouts/Main";
-import Header from "../Header";
+// import Header from "../Header";
 import Banner from "../Banner";
-import Nav from "../Nav";
+// import Nav from "../Nav";
 import About from "../About";
 import Work from "../Work";
 import Contact from "../Contact";

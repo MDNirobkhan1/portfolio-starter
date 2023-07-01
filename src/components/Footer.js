@@ -62,7 +62,7 @@ const Footer = () => {
 
       <div className="flex flex-col items-center sm:flex-row sm:justify-between">
         <p className="text-sm text-gray-500 dark:text-gray-300">
-          © Copyright 2023. All Rights Reserved From Akib Rayhan.
+          © Copyright 2023. All Rights Reserved From Mohiuddin.
         </p>
 
         <div className="flex -mx-2">
