@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import logo from '../assets/pic.jpg'
+import { Link } from 'react-scroll';
 
 const Header = () => {
   return <header className='py-8'>
@@ -12,7 +13,7 @@ const Header = () => {
             <span className='ml-4 text-4xl text-gradient'> PORTFOLIO</span>
           </a>
         </div>
-        <button className='btn btn-sm'>MY RESUME</button>
+       <Link to="https://drive.google.com/file/d/1tibh6T0TItsaOdKaoO-oz3Yc338jjuT4/view?usp=sharing" > <button  className='btn btn-sm'>MY RESUME</button></Link>
       </div>
     </div>
   </header>;
