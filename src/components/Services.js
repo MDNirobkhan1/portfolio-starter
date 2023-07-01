@@ -1,11 +1,19 @@
 import React from 'react';
 
+import { motion } from 'framer-motion';
+import { fadeIn } from '../variants'
+
 const Services = () => {
   return <div className='container mx-auto' id='services'>
     <h3 className="text-3xl py-10 font-bold text-violet-500 text-center">
       My Skills
     </h3>
-    <div className="grid place-items-center grid-cols-1 md:grid-cols-2 container mx-auto">
+    <motion.div
+      variants={fadeIn('left', 0.5)}
+      initial="hidden"
+      whileInView={'show'}
+      vlewport={{ once: false, amount: 0.7 }}
+      className="grid place-items-center grid-cols-1 md:grid-cols-2 container mx-auto">
       <div className="w-1/2 grid grid-cols-1 md:grid-cols-3 gap-10">
         <div className="flex flex-col items-center">
           <div
@@ -109,7 +117,7 @@ const Services = () => {
           <p>Node Mailer</p>
         </div>
       </div>
-    </div>
+    </motion.div>
   </div>;
 };
 

@@ -8,6 +8,7 @@ import { TypeAnimation } from 'react-type-animation'
 // motion
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants'
+import { Link } from 'react-scroll';
 
 const Work = () => {
   return <div className='section' id='work'>
@@ -23,7 +24,7 @@ const Work = () => {
           <div>
           <h2 className='h2 loading-tight text-accent'>photogr school</h2>
             <p className='mx-w-sm mb-16'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, quo! Alias, ad nobis consequatur recusandae velit maiores sit, repellendus, odit totam vitae possimus quam facere inventore? Eaque officia totam quae.</p>
-            <button className='btn btn-sm'>View all Project</button>
+            <Link className='btn btn-sm' to='project'>View all Project</Link>
 
           </div>
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
