@@ -22,9 +22,11 @@ const Work = () => {
           vlewport={{ once: false, amount: 0.7 }}
           className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
           <div>
-          <h2 className='h2 loading-tight text-accent'>photogr school</h2>
+            <h2 className='h2 loading-tight text-accent'>photogr school</h2>
             <p className='mx-w-sm mb-16'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, quo! Alias, ad nobis consequatur recusandae velit maiores sit, repellendus, odit totam vitae possimus quam facere inventore? Eaque officia totam quae.</p>
-            <Link className='btn btn-sm' to='project'>View all Project</Link>
+            <a className='btn btn-sm'  href="https://summer-camp-10836.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
+              View All Project
+            </a>
 
           </div>
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
@@ -48,7 +50,9 @@ const Work = () => {
           <div>
             <h2 className='h2 loading-tight text-accent'>Toy-cars</h2>
             <p className='mx-w-sm mb-16'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, quo! Alias, ad nobis consequatur recusandae velit maiores sit, repellendus, odit totam vitae possimus quam facere inventore? Eaque officia totam quae.</p>
-            <button className='btn btn-sm'>View all Project</button>
+            <a className='btn btn-sm' href="https://assignment-11-4641e.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
+              View All Project
+            </a>
 
           </div>
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
@@ -72,7 +76,9 @@ const Work = () => {
           <div>
             <h2 className='h2 loading-tight text-accent'>Food Recipi</h2>
             <p className='mx-w-sm mb-16'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, quo! Alias, ad nobis consequatur recusandae velit maiores sit, repellendus, odit totam vitae possimus quam facere inventore? Eaque officia totam quae.</p>
-            <button className='btn btn-sm'>View all Project</button>
+            <a className='btn btn-sm' href="https://assignment-10-a3221.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
+              View All Project
+            </a>
 
           </div>
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>

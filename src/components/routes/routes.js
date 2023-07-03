@@ -9,6 +9,7 @@ import Contact from "../Contact";
 import Services from "../Services";
 
 
+
 export const router = createBrowserRouter([
     {
       path: "/",
@@ -38,6 +39,8 @@ export const router = createBrowserRouter([
           path: "conatct",
           element: <Contact />,
         },
+        
       ],
     },
   ]);
+  

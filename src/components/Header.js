@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import logo from '../assets/pic.jpg'
@@ -13,7 +14,8 @@ const Header = () => {
             <span className='ml-4 text-4xl text-gradient'> PORTFOLIO</span>
           </a>
         </div>
-       <Link to="https://drive.google.com/file/d/1tibh6T0TItsaOdKaoO-oz3Yc338jjuT4/view?usp=sharing" > <button  className='btn btn-sm'>MY RESUME</button></Link>
+
+        <a className='btn btn-sm' href="https://drive.google.com/uc?id=1tibh6T0TItsaOdKaoO-oz3Yc338jjuT4&export=download" referrerPolicy='no-referrer' target='_blank' download rel="noreferrer">Resume</a>
       </div>
     </div>
   </header>;
