@@ -23,7 +23,7 @@ const Banner = () => {
             initial="hidden"
             whileInView={'show'}
             vlewport={{ once: false, amount: 0.7 }}
-            className='text-[55px] font-bold leading-[0,8] lg:text-[70px] mb-8'>
+            className='text-[55px] font-bold leading-[0,8] lg:text-[70px] sm:text-[50px]  mb-8'>
             MD. <span>MOHIUDDIN</span>
           </motion.h1>
           <motion.div

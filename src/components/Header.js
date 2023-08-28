@@ -7,7 +7,7 @@ import logo from '../assets/pic.jpg'
 const Header = () => {
   return <header className='py-8'>
     <div className='container mx-auto'>
-      <div className='flex justify-between items-center'>
+      <div className='flex justify-between items-center sm:gap-2'>
         <div>
           <a href="#" className='text-3xl flex'>
             <img className='w-[60px] h-[60px] rounded-full' src={logo} alt="" />
