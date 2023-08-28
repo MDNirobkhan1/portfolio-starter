@@ -38,7 +38,7 @@ const Banner = () => {
               ' Frontend Developer', 200,
               ' Web Developer', 200,
             ]}
-              speed={40}
+              speed={30}
               className='text-accent'
               wrapper='span'
               repeat={Infinity}
