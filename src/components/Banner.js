@@ -23,7 +23,7 @@ const Banner = () => {
             initial="hidden"
             whileInView={'show'}
             vlewport={{ once: false, amount: 0.7 }}
-            className='text-[55px] font-bold leading-[0,8] lg:text-[70px] sm:text-[50px]  mb-8'>
+            className='text-[40px] font-bold leading-[0,8] lg:text-[70px] sm:text-[50px]  mb-8'>
             MD. <span>MOHIUDDIN</span>
           </motion.h1>
           <motion.div
@@ -38,7 +38,7 @@ const Banner = () => {
               ' Frontend Developer', 200,
               ' Web Developer', 200,
             ]}
-              speed={30}
+              speed={40}
               className='text-accent'
               wrapper='span'
               repeat={Infinity}

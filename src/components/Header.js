@@ -7,15 +7,17 @@ import logo from '../assets/pic.jpg'
 const Header = () => {
   return <header className='py-8'>
     <div className='container mx-auto'>
-      <div className='flex justify-between items-center sm:gap-2'>
+      <div className='flex justify-between items-center sm:gap-3'>
         <div>
           <a href="#" className='text-3xl flex'>
             <img className='w-[60px] h-[60px] rounded-full' src={logo} alt="" />
-            <span className='ml-4 text-4xl text-gradient'> PORTFOLIO</span>
+            <span className='ml-2 text-4xl text-gradient'> PORTFOLIO</span>
           </a>
         </div>
 
+        <div>
         <a className='btn btn-sm' href="https://drive.google.com/uc?id=1tibh6T0TItsaOdKaoO-oz3Yc338jjuT4&export=download" referrerPolicy='no-referrer' target='_blank' download rel="noreferrer">My Resume</a>
+        </div>
       </div>
     </div>
   </header>;
