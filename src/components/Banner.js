@@ -24,7 +24,7 @@ const Banner = () => {
             initial="hidden"
             whileInView={'show'}
             vlewport={{ once: false, amount: 0.7 }}
-            className='text-[40px] font-bold leading-[0,8] lg:text-[70px] sm:text-[50px]  mb-8'>
+            className='text-[40px] font-bold leading-[0,8] lg:text-[50px] sm:text-[50px]  mb-8'>
             MD. <span>MOHIUDDIN</span>
           </motion.h1>
           <motion.div
@@ -35,14 +35,15 @@ const Banner = () => {
             className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'>
             <span className='text-white mr-4'>I am a</span>
             <TypeAnimation sequence={[
-              ' MERN Stack Developer', 200,
-              ' Frontend Developer', 200,
-              ' Web Developer', 200,
+              ' MERN Stack Developer',200,
+              ' Frontend Developer',200,
+              ' Web Developer',200,
             ]}
-              speed={60}
+              speed={30}
               className='text-accent'
               wrapper='span'
               repeat={Infinity}
+              
             />
 
           </motion.div>
