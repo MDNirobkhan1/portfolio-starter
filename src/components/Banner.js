@@ -32,7 +32,7 @@ const Banner = () => {
             initial="hidden"
             whileInView={'show'}
             vlewport={{ once: false, amount: 0.7 }}
-            className='mb-6 text-[36px] lg:text-[20px] font-secondary font-semibold uppercase leading-[1]'>
+            className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'>
             <span className='text-white mr-4'>I am a</span>
             <TypeAnimation sequence={[
               ' MERN Stack Developer',200,
@@ -40,7 +40,7 @@ const Banner = () => {
               ' Web Developer',200,
             ]}
               speed={30}
-              className='text-accent'
+              className='text-accent lg:text-[30px]'
               wrapper='span'
               repeat={Infinity}
               
