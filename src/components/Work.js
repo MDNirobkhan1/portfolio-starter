@@ -4,11 +4,11 @@ import image2 from '../assets/Toy-cars.jpg';
 import image3 from '../assets/recipi.jpg'
 
 // type animation 
-import { TypeAnimation } from 'react-type-animation'
+
 // motion
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants'
-import { Link } from 'react-scroll';
+
 
 const Work = () => {
   return <div className='section' id='work'>

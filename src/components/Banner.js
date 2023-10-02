@@ -11,6 +11,7 @@ import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion';
 // variants 
 import { fadeIn } from '../variants'
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
   return <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
@@ -31,14 +32,14 @@ const Banner = () => {
             initial="hidden"
             whileInView={'show'}
             vlewport={{ once: false, amount: 0.7 }}
-            className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'>
+            className='mb-6 text-[36px] lg:text-[40px] font-secondary font-semibold uppercase leading-[1]'>
             <span className='text-white mr-4'>I am a</span>
             <TypeAnimation sequence={[
-              
+              ' MERN Stack Developer', 200,
               ' Frontend Developer', 200,
               ' Web Developer', 200,
             ]}
-              speed={20}
+              speed={50}
               className='text-accent'
               wrapper='span'
               repeat={Infinity}
@@ -57,8 +58,8 @@ const Banner = () => {
             whileInView={'show'}
             vlewport={{ once: false, amount: 0.7 }}
             className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-            <button className='btn btn-lg'>Contact me</button>
-            <a href="#" className='text-gradient btn-link'>My Portfolio</a>
+            <Link to="contact"><button className='btn btn-lg'>Contact me</button></Link>
+           
           </motion.div>
         </div>
         {/* iamge  */}
