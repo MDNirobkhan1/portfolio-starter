@@ -15,7 +15,7 @@ const Work = () => {
   return <div className='section' id='work'>
     <div className='container mx-auto'>
       <h2 className='text-4xl text-center mb-10'>My Projects</h2>
-      <div className='flex flex-col lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 gap-x-10'>
+      <div className='flex lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 gap-x-10'>
         <motion.div
           variants={fadeIn('left', 0.3)}
           initial="hidden"
