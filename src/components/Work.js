@@ -13,7 +13,7 @@ import { fadeIn } from '../variants'
 
 const Work = () => {
   return <div className='section' id='work'>
-    <div className='container mx-auto'>
+    <div className='container mx-auto mt-32'>
       <h2 className='text-4xl text-center mb-10'>My Projects</h2>
       <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4'>
         <motion.div
