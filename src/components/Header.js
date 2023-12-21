@@ -22,7 +22,7 @@ const Header = () => {
           <div>
             <a
               className="btn btn-sm"
-              href="https://drive.google.com/file/d/1N4wWS0BT5kBXvHHvVBFNTo60PLs6XClH/view=download"
+              href="file:///F:/application/Programming%20application/Update%20Resume/Mohiuddin%20Developer%20Resume.pdf=download"
               referrerPolicy="no-referrer"
               target="_blank"
               download
