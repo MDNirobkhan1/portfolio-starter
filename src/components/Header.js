@@ -22,7 +22,7 @@ const Header = () => {
           <div>
             <a
               className="btn btn-sm"
-              href="https://drive.google.com/file/d/1N4wWS0BT5kBXvHHvVBFNTo60PLs6XClH/view=download"
+              href="https://drive.google.com/file/d/1N4wWS0BT5kBXvHHvVBFNTo60PLs6XClH=download"
               referrerPolicy="no-referrer"
               target="_blank"
               download
