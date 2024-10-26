@@ -69,7 +69,7 @@ const Banner = () => {
           initial="hidden"
           whileInView={'show'}
           className='hidden lg:flex flex-1 max-w-[320px] lg:-mx-w-[482px]'>
-          <img className='rounded-full ' src={Image} alt="" />
+          <img className='rounded-full image ' src={Image} alt="" />
         </motion.div>
       </div>
     </div>

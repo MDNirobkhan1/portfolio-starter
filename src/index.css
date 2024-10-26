@@ -69,3 +69,6 @@
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
 }
+.image {
+  filter: drop-shadow(20px 20px 20px rgb(39, 59, 238));
+}
