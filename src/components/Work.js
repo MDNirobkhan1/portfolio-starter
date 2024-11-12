@@ -1,6 +1,5 @@
 import React from "react";
-import image1 from "../assets/55.jpg";
-import image2 from "../assets/Toy-cars.jpg";
+import image1 from "../assets/travels.jpg";
 import image3 from "../assets/recipi.jpg";
 import image4 from "../assets/shopping cart.PNG";
 import image5 from "../assets/Weather-app.PNG";
@@ -25,10 +24,10 @@ const Work = () => {
             className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0"
           >
             <div>
-              <h2 className="h2 loading-tight text-accent">photogr school</h2>
+              <h2 className="h2 loading-tight text-accent">Travels</h2>
               <a
                 className="btn btn-sm"
-                href="https://summer-camp-10836.firebaseapp.com/"
+                href="https://wondrous-cendol-60e70c.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -44,45 +43,14 @@ const Work = () => {
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
                 <h2 className="h2 loading-tight text-accent">
-                  photography school
+                  Travels Website
                 </h2>
                 <span className="text-3xl text-white">Project title</span>
               </div>
               <div></div>
             </div>
           </motion.div>
-          <motion.div
-            variants={fadeIn("up", 0.3)}
-            initial="hidden"
-            whileInView={"show"}
-            vlewport={{ once: false, amount: 0.7 }}
-            className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0"
-          >
-            <div>
-              <h2 className="h2 loading-tight text-accent">Toy-cars</h2>
-              <a
-                className="btn btn-sm"
-                href="https://assignment-11-4641e.firebaseapp.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View All Project
-              </a>
-            </div>
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition duration-3"></div>
-              <img
-                className="group-hover:scale-125 transition-all duration-500"
-                src={image2}
-                alt=""
-              />
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <h2 className="h2 loading-tight text-accent">Toy-cars</h2>
-                <span className="text-3xl text-white">Project title</span>
-              </div>
-              <div></div>
-            </div>
-          </motion.div>
+
           <motion.div
             variants={fadeIn("left", 0.3)}
             initial="hidden"
